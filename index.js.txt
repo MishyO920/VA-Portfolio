@@ -1,0 +1,76 @@
+import React from "react";
+
+export default function Portfolio() {
+  return (
+    <div style={{ 
+      fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+      backgroundColor: "#FFF0F5", 
+      color: "#5C2A4D", 
+      minHeight: "100vh", 
+      padding: "2rem"
+    }}>
+      <header style={{ textAlign: "center", marginBottom: "2rem" }}>
+        <h1 style={{ fontSize: "3rem", marginBottom: "0.2rem" }}>Michelle Olang'</h1>
+        <p style={{ fontSize: "1.25rem" }}>
+          Virtual Assistant | Administrative Support | Remote Specialist
+        </p>
+      </header>
+
+      <section style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "2rem" }}>
+        <div style={{ backgroundColor: "white", borderRadius: "1rem", padding: "1.5rem", boxShadow: "0 4px 12px rgba(92,42,77,0.15)" }}>
+          <h2 style={{ color: "#AD5782", fontSize: "1.75rem", marginBottom: "1rem" }}>About Me</h2>
+          <p>
+            I’m a highly organized and dependable Virtual Assistant with 4+ years of experience
+            providing administrative support to busy professionals. I specialize in calendar
+            management, email handling, document preparation, and customer support.
+          </p>
+        </div>
+
+        <div style={{ backgroundColor: "white", borderRadius: "1rem", padding: "1.5rem", boxShadow: "0 4px 12px rgba(92,42,77,0.15)" }}>
+          <h2 style={{ color: "#AD5782", fontSize: "1.75rem", marginBottom: "1rem" }}>Services Offered</h2>
+          <ul style={{ paddingLeft: "1.25rem" }}>
+            <li>Inbox and calendar management</li>
+            <li>Travel planning & scheduling</li>
+            <li>Customer service support</li>
+            <li>Data entry and file organization</li>
+            <li>Social media assistance</li>
+          </ul>
+        </div>
+
+        <div style={{ backgroundColor: "white", borderRadius: "1rem", padding: "1.5rem", boxShadow: "0 4px 12px rgba(92,42,77,0.15)" }}>
+          <h2 style={{ color: "#AD5782", fontSize: "1.75rem", marginBottom: "1rem" }}>Work Experience</h2>
+          <p>
+            <strong>Freelance Virtual Assistant</strong><br />
+            Supporting CEOs and business owners in administrative functions for 4 years.
+          </p>
+          <p style={{ marginTop: "1rem" }}>
+            <strong>ALX Virtual Assistant Program (2025)</strong><br />
+            Completed extensive training in remote support, time management, and CRM systems.
+          </p>
+        </div>
+
+        <div style={{ backgroundColor: "white", borderRadius: "1rem", padding: "1.5rem", boxShadow: "0 4px 12px rgba(92,42,77,0.15)" }}>
+          <h2 style={{ color: "#AD5782", fontSize: "1.75rem", marginBottom: "1rem" }}>Contact & Links</h2>
+          <p>Email: michelleand924@gmail.com</p>
+          <p>LinkedIn: linkedin.com/in/michelleolang</p>
+          <p>Portfolio PDF: michelleolang.com/portfolio.pdf</p>
+          <button style={{ 
+            marginTop: "1rem", 
+            backgroundColor: "#AD5782", 
+            color: "white", 
+            padding: "0.75rem 1.5rem", 
+            border: "none", 
+            borderRadius: "0.75rem",
+            cursor: "pointer"
+          }}>
+            Hire Me
+          </button>
+        </div>
+      </section>
+
+      <footer style={{ textAlign: "center", marginTop: "3rem", color: "#a18699", fontSize: "0.9rem" }}>
+        &copy; 2025 Michelle Olang'. All rights reserved.
+      </footer>
+    </div>
+  );
+}
